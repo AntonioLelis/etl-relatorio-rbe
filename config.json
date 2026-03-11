@@ -1,0 +1,17 @@
+{
+  "indices": {
+    "unidade": 5,
+    "profissional": 6,
+    "ocupacao": 7,
+    "descricao": 9,
+    "tipo": 11,
+    "config": 14,
+    "bloq": 16,
+    "ofer": 18,
+    "agend": 20,
+    "disp": 22,
+    "perc_ocup": 24,
+    "faltas": 27,
+    "perc_faltas": 29
+  }
+}
