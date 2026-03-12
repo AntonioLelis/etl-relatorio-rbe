@@ -118,6 +118,10 @@ arquivo = st.file_uploader("Faça o upload do Relatório RBE (.csv)", type=["csv
 if arquivo:
     # Tratamento de erro na leitura do arquivo (Melhoria)
     try:
+        # Tenta ler no padrão moderno (UTF-8)
+        df_raw = pd.read_csv(arquivo, header=None, encoding="utf-8", dtype=str)
+    except UnicodeDecodeError:
+        # Se der erro de acento, tenta ler no padrão antigo (Latin-1)
         df_raw = pd.read_csv(arquivo, header=None, encoding="latin1", dtype=str)
     except Exception as e:
         st.error(f"Erro ao ler arquivo. Verifique se o formato é realmente CSV. Detalhes: {e}")

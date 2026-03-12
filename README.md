@@ -1,5 +1,7 @@
 # 🏥 ETL - Transformador de Relatórios RBE
 
+[![Aceder à Aplicação](https://img.shields.io/badge/Aceder%20App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://etl-relatorio-rbe.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?logo=streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white)
